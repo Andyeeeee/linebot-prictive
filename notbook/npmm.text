@@ -1,0 +1,15 @@
+npm init --yes
+type:module
+npm i linebot axios dovenv
+npm i -D eslint
+延伸模組 eslint   Dotenv
+npm i -D ngrok   ngrok轉送服務 me <- ngrok <- line 
+新增指令  npm run ngrok即可
+  "scripts": {
+    "ngrok": "npx ngrok http 3000 --region jp"
+     "start": "node index.js" 這個比較特別 start給雲端看剛開啟時  會先跑start  不過同時也是要手動開啟
+  },
+
+  npm i -D nodemon重新整理 env除外
+  使用時用 npx nodemon index.js
+    "dev": "npx nodemon index.js"
