@@ -30,5 +30,5 @@ bot.on('message', async event => {
 })
 
 bot.listen('/', process.env.PORT || 3000, () => {
-  console.log('原神啟動')
+  console.log('啟動')
 })
